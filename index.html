@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake & Ladder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="head">
+        <h2>Snake And Ladder</h2>
+    </header>
+
+    <div class="wrapper">
+
+        <!--        snake-->
+        <div id="GameBoard">
+            <div class="snake-photo">
+                <img src="media/snake.png" id="snake1" alt="">
+                <img src="media/snake.png" id="snake2" alt="">
+                <img src="media/snake.png" id="snake3" alt="">
+            </div>
+            <div class="ladder">
+                <img src="media/ladders.png" id="ladder1" alt="">
+                <img src="media/ladders.png" id="ladder2" alt="">
+                <img src="media/ladders.png" id="ladder3" alt="">
+            </div>
+            <div class="snake_board">
+                <img src="media/saapsidhi.png" alt="">
+            </div>
+        </div>
+
+        <!-- players -->
+
+        <div class="PlayersBoard">
+
+            <div class="players" id="player1" style="text-align: center;">
+                <h1>player1</h1>
+                <p class="scoreStyle">Score: <span class="score">0</span></p>
+                <p class="onDice-style">On Dice: <span class="onDice">0</span></p>
+                <button class="dice" id="player1btn">Throw Dice</button>
+            </div>
+            <div class="players" id="player2" style="text-align: center;">
+                <h1>player2</h1>
+                <p class="scoreStyle">Score: <span class="score">0</span></p>
+                <p class="onDice-style">On Dice: <span class="onDice">0</span></p>
+                <button class="dice" id="player2btn" disabled>Throw Dice</button>
+            </div>
+            <div class="players" id="player3" style="text-align: center;">
+                <h1>player3</h1>
+                <p class="scoreStyle">Score: <span class="score">0</span></p>
+                <p class="onDice-style">On Dice: <span class="onDice">0</span></p>
+                <button class="dice" id="player3btn" disabled>Throw Dice</button>
+            </div>
+            <div class="players" id="player4" style="text-align: center;">
+                <h1>player4</h1>
+                <p class="scoreStyle">Score: <span class="score">0</span></p>
+                <p class="onDice-style">On Dice: <span class="onDice">0</span></p>
+                <button class="dice" id="player4btn" disabled>Throw Dice</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="functionality.js">
+
+        
+    </script>
+</body>
+
+</html>

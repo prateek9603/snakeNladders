@@ -1,0 +1,132 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .head {
+            background-color: red;
+            height: 8vh;
+        }
+
+        .head h2 {
+            padding: .2rem;
+            text-align: center;
+            font-size: 2rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .box {
+            border: 2px solid red;
+        }
+
+        .snake_board {
+            border: 2px solid red;
+            width: 70vw;
+            height: 92vh;
+        }
+
+        .snake_board img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .snake-photo img,
+        .ladder img {
+            position: absolute;
+        }
+
+        .snake-photo img {
+            height: 15rem;
+            width: 20rem;
+            object-fit: contain;
+        }
+
+        .wrapper {
+            position: relative;
+        }
+
+        .ladder img {
+            height: 15rem;
+            width: 20rem;
+            object-fit: contain;
+        }
+
+        #snake1 {
+            transform: rotate(411deg);
+            top: 47%;
+            left: -2%;
+        }
+
+        #snake2 {
+            transform: rotate(411deg);
+            top: 19%;
+            right: 49%;
+        }
+
+        #snake3 {
+            transform: rotate(369deg);
+            top: 5%;
+            left: -37px;
+        }
+
+        #ladder1 {
+            transform: rotate(-16deg);
+            top: 52%;
+            right: 35%;
+        }
+
+        #ladder2 {
+            transform: rotate(-40deg);
+            top: -2%;
+            right: 59%;
+        }
+
+        #ladder3 {
+            transform: rotate(15deg);
+            top: 56%;
+            left: 9%;
+        }
+
+        .wrapper {
+            display: flex;
+        }
+
+        .PlayersBoard {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 30%;
+        }
+
+        .players {
+            border: solid red;
+        }
+    
+        .scoreStyle{
+            background-color: grey;
+            padding: .7rem;
+            margin: 1rem;
+            border-radius: .4rem;
+            font-size:1.3rem;
+        }
+
+        .onDice-style{
+            background-color: grey;
+            padding: .7rem;
+            margin: 1rem;
+            border-radius: .4rem;
+            font-size:1.3rem;
+        }
+
+        .dice{
+            padding: 1rem;
+            cursor: pointer;
+            font-size: 1.3rem;
+            /* background-color: rgb(145, 103, 103); */
+            /* color: #fff; */
+            border: solid black;
+            border-radius: .5rem;
+
+        }
